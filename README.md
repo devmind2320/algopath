@@ -1,6 +1,6 @@
-# Cohort - Online Competitive Programming Judge
+#Online Competitive Programming Judge
 
-Cohort is a full-stack online judge platform designed for competitive programmers to practice, learn, and compete. It enables users to solve algorithmic problems by submitting solutions in multiple programming languages (C++, Java, Python, JavaScript) and receive instant, automated feedback on their code's correctness and performance. The platform aims to provide a comprehensive learning and competitive environment with features like contests, progress tracking, and AI-powered coding assistance.
+It is a full-stack online judge platform designed for competitive programmers to practice, learn, and compete. It enables users to solve algorithmic problems by submitting solutions in multiple programming languages (C++, Java, Python, JavaScript) and receive instant, automated feedback on their code's correctness and performance. The platform aims to provide a comprehensive learning and competitive environment with features like contests, progress tracking, and AI-powered coding assistance.
 
 ## Features Implemented
 
@@ -41,7 +41,7 @@ Cohort is a full-stack online judge platform designed for competitive programmer
 
 ## Architecture Overview
 
-Cohort utilizes a decoupled-inspired architecture to handle code submissions asynchronously and ensure scalability.
+It utilizes a decoupled-inspired architecture to handle code submissions asynchronously and ensure scalability.
 
 ### Code Execution Flow
 
@@ -104,9 +104,4 @@ Cohort utilizes a decoupled-inspired architecture to handle code submissions asy
 
    WORKER_CONCURRENCY=<number of worker threads>
 
-2.VITE_SERVER_ENDPOINT=<your API server URL>
-# Build the API server image
-docker build -t cohort-api:latest -f server-side/Dockerfile.api server-side
 
-# Build the Worker processor image
-docker build -t cohort-worker:latest -f server-side/Dockerfile.worker server-side
