@@ -1,4 +1,4 @@
-#Online Competitive Programming Judge
+# Online Competitive Programming Judge
 
 It is a full-stack online judge platform designed for competitive programmers to practice, learn, and compete. It enables users to solve algorithmic problems by submitting solutions in multiple programming languages (C++, Java, Python, JavaScript) and receive instant, automated feedback on their code's correctness and performance. The platform aims to provide a comprehensive learning and competitive environment with features like contests, progress tracking, and AI-powered coding assistance.
 
